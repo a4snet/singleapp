@@ -1,0 +1,9 @@
+name: singleapp
+dependencies:
+  angular: any
+  browser: any
+  js: any
+  semantic_ui: 0.12.1
+
+dev_dependencies:
+  unittest: any

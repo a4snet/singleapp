@@ -1,0 +1,15 @@
+<div user-list-controller type="list">
+
+    <div ng-if="!ctrl.usersLoaded">
+        {{ctrl.message}}
+    </div>
+
+    <div ng-repeat="user in ctrl.allUsers">
+        <a class="header" ng-click="ctrl.selectUser=user" href="#/user/details/{{user.id}}">{{user.name}}</a>
+    </div>
+
+
+    <a>This is the List View</a><br>
+    <a  href="#/user/details">Go to Details</a>
+    <a  href="#/root">Go to Home</a>
+</div>
