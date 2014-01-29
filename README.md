@@ -3,6 +3,6 @@ singleapp
 
 Dart Angular Playground
 
-This Included a Singleapp Exsample.
+This Included a Singleapp Example.
 
-Actualy an not Wworking Example for Semantic UI
+Actually an not Working Example for Semantic UI
